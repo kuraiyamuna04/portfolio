@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(0,0,0),rgba(146, 22, 240, 0.5));
+    color: white;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+img {
+  float: left;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+#about{
+  float:right;
+  margin: 20px;
+ 
+}
+
+.left{
+  float: left;
+}
+
+
+#home{
+    height: fit-content;
+    width: 70%;
+    margin: 5%;
+    padding: 5%;
+    flex: 50%;
+}
+
+.first{
+  width: fit-content;
+  padding: 5%;
+  color: rgb(0, 0, 0);
+  border: 2px dotted white;
+  margin: 10%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.first-1{
+  width: fit-content;
+  padding: 5%;
+  color: rgb(0, 0, 0);
+  margin: 10%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.second{
+  color: black;
+  border: 2px solid black;
+  margin: 15%;
+  align-items: center;
+
+}
+li{
+  font-size:large;
+}
+
+button{
+  width: fit-content;
+  margin: 2%;
+  background-color: yellow;
+  height: 60% ;
+  font-size: medium;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #000000;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+@media (max-width: 500px) {
+    .myself{
+      width: 90%;
+      margin: 5%;
+    }
+    #home{
+      padding: 15%;
+      margin: 2%;
+      width: 100%;
+  
+      
+  }
+
+  }
+  @media (max-width: 400px) {
+    .myself{
+      width: 100%;
+      margin: 20%;
+    }
+}
